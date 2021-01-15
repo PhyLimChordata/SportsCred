@@ -1,0 +1,111 @@
+.profile-popup  {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5);  
+}  
+.profile-post-popup-content {   
+  position: absolute;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+   
+  margin: auto;  
+  border-radius: 10px;  
+  background: #41474b;   
+}
+.profile-popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  
+  order: 1; 
+  flex-grow: 6;
+  padding: 2% 10%; 
+}
+
+h1 {
+  color: #FF7e1F;
+}
+
+.profile-popup-close-button{
+  float:right;
+}
+.profile-popup-submit-button{ 
+  background-color: #747474;
+  color: white; 
+  border-color: white; 
+  border-style: solid;
+}
+.profile-popup-input {
+  word-break: break-all;
+  padding-bottom: 15%;  
+  font-size:20px;
+  border-radius: 8px;
+  font-family:"CommissionerMedium";
+  padding-left: 8px;
+  padding-top: 8px;
+  color: grey;
+
+}
+
+.profile-popup-input-characters {
+  word-break: break-all;
+  padding-top: 10px;
+  
+  font-size:20px;
+  border-radius: 8px;
+  font-family:"CommissionerMedium";
+  color: #FF7e1F;
+}
+
+.profile-popup-submit-button {
+  margin-top: 1%;
+  align-self: flex-end;
+  padding: 5px , 10px; 
+    background-color: #FF7e1F;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 20%;
+    color: white;
+    font-family: 'CommissionerMedium';
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 650;
+}
+.profile-popup-close-button:hover , .profile-popup-submit-button:hover { 
+  color: #747474;
+  background-color: white; 
+  cursor: pointer;
+}
+
+.profile-rl-popup-content {
+  position: absolute;  
+  left: 35%;  
+  right: 35%;  
+  top: 10%;    
+  margin: auto;  
+  border-radius: 10px;  
+  background: #41474b;   
+}
+@font-face {
+  font-family: 'CommissionerMedium';
+  src: local('Commissioner'), url(../res/fonts/Commissioner/Commissioner-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CommissionerBold';
+  src: local('CommissionerBold'), url(../res/fonts/Commissioner/Commissioner-Bold.ttf) format('truetype');
+}
+

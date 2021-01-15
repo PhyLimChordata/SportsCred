@@ -1,0 +1,304 @@
+.tzpv-background { 
+    z-index: -1;
+    width:100%;
+    height:100%;
+    overflow: auto; 
+    background-color: #222629;
+    background-size: cover;
+    font-family: 'CommissionerMedium';
+}
+ 
+/***************************** CONTAINER  ***********************/ 
+.tzpv-container { 
+  display: flex; 
+  align-items: center;
+  padding: 3%; 
+  flex-direction: column;
+}
+
+.tzpv-post-container , .tzpv-post-comment-container { 
+  flex-direction: column;
+  display: flex;
+  background-color: grey; 
+  padding: 0% 3%;
+  padding-top: 2%; 
+  width: 50%;
+  font-size: 1.3vw; 
+  font-family: 'CommissionerMedium';
+  border-radius: 8px;
+  padding-bottom: 10px;
+
+}
+
+.tzpv-comments-container { 
+
+  width: 50%; 
+  background-color: grey; 
+  padding: 0% 3%;
+  padding-bottom: 3%;  
+  flex-direction: column;
+  display: flex;
+  color: white; 
+  font-size: 1.3vw; 
+  font-family: 'CommissionerMedium';
+  border-radius: 8px;
+}
+
+.tzpv-comment-container { 
+  display: flex; 
+  padding-bottom: 2%;
+  border-radius: 8px;
+
+}
+.tzpv-post-comment-container {
+  margin-top: 3%; 
+  border-radius: 8px;
+  border-color: transparent;
+  font-family: 'CommissionerMedium';
+}
+/********************* CSS FOR POST *************/
+.tzpv-user-info {
+  display: flex;
+}
+
+.tzpv-post-info {
+  color: white; 
+  padding-bottom: 5%; 
+  border-radius: 8px;
+  text-indent: 2em;
+  margin-left: 10px;
+  flex: 20%;
+}
+
+.tzpv-post-buttons {
+  display: flex; 
+  border-radius: 8px;
+}
+
+.tzpv-post-button-agree ,.tzpv-post-button-disagree, .tzpv-post-button-agree-selected , .tzpv-post-button-disagree-selected { 
+  margin-top: 2%; 
+  margin-left: 2%;
+  padding: 2%; 
+  outline: none; 
+  color: lightgrey; 
+  width: 15vw;
+  font-size: 1.3vw;
+  border-radius: 8px;  
+  cursor: pointer; 
+  font-family: 'CommissionerMedium';
+}
+.tzpv-comment-agree-disagree {
+  display: flex;
+   border-style: none; 
+}
+.tzpv-post-button-agree {
+  background-color: #61b305;
+  border-style: none; 
+}
+.tzpv-post-button-agree-selected {
+  background-color: #61b305; 
+  font-family: 'CommissionerBold';
+  color: white; 
+   border-style: none; 
+  
+}
+.tzpv-post-button-disagree {
+  background-color: #d30909;
+  border-style: none; 
+}
+.tzpv-post-button-disagree-selected {
+  background-color: #d30909;
+  font-family: 'CommissionerBold';
+  color: white; 
+   border-style: none; 
+ 
+}
+
+.tzpv-likes { 
+  background-color: #ff7e1f; 
+  font-size: 1.5vw; 
+  width: 4vw; 
+  height: 4vw; 
+  line-height: 3.8vw;
+  border-radius: 75%;
+  margin-top: 1.7%;
+  margin-left: 65%;
+
+  text-align: center;
+  color: white;
+  font-family: 'CommissionerBold';
+}
+
+.tzpv-likes label { 
+  margin: auto;
+}
+
+
+/************ CSS POST COMMENT **********/ 
+.tzpv-post-comment-container input {
+  padding-bottom: 10%;
+  margin-bottom: 10px;
+  word-break: break-all;
+  border-radius: 8px;
+  color: grey;
+  font-size: 1.3vw; 
+  font-family: 'CommissionerMedium';
+  padding-top: 10px;
+  padding-left: 10px;
+  border-color: transparent;
+}
+
+.tzpv-post-comment-container button{
+  font-size: 1vw; 
+  font-family: 'CommissionerMedium';
+  margin-top: 2%;
+  padding: 1% 3%; 
+  background-color: #ff7e1f; 
+  color: white; 
+  border-radius: 8px; 
+  align-self: flex-end;
+  border-color: transparent;
+}
+
+.tzpv-post-comment-container button:hover {
+  color: #ff7e1f; 
+  background-color: white; 
+  border-radius: 8px;
+  font-family: 'CommissionerMedium';
+  cursor: pointer;
+}
+
+/****************** CSS FOR COMMENT *********************/
+.tzpv-profile { 
+  margin-left: 2%; 
+  width: 20%;
+}
+.tzpv-comment-like {
+  align-self:center;  
+}
+.tzpv-comments-container h2{
+  color: #ff7e1f; 
+}
+.tzpv-comment-container p{
+  margin-left: 2%; 
+  align-self: center ;
+  word-break: break-all; 
+  width: 70%; 
+}
+
+.tzpv-comment-link, .tzpv-comment-link-selected { 
+  margin-left: 4%;
+}  
+
+.tzpv-comment-link:hover {
+  text-decoration: underline; 
+  color: #ff7e1f; 
+  cursor: pointer;
+}
+
+.tzpv-comment-link-selected {
+  color: #ff7e1f; 
+  cursor: pointer;
+}
+
+.tzpv-profile-link {
+  margin-top: 2.5%;
+  text-decoration: none;
+  color: white;
+}
+.tzpv-profile-pic {
+  text-decoration: none;
+  color: white;
+}
+
+
+.tzpv-profile-user {
+  margin-top: 2.5%;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.tzpv-report-btn{
+  background-color: grey;
+  border-radius: 8px;
+  border: 1px solid;
+  color: white;
+  display: flex;
+  font-size: 1.3vw;
+  font-family: 'CommissionerMedium';
+  text-align: center;
+  width: 140px;
+}
+
+.tzpv-creport-btn{
+  background-color: grey;
+  border-radius: 8px;
+  border: 1px solid;
+  color: white;
+  display: absolute;
+  font-size: 1.1vw;
+  font-family: 'CommissionerBold';
+  text-align: center;
+  width: 180px;
+}
+
+
+.tzpv-report-btn:hover, .tzpv-creport-btn:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+
+.tzpv-reported{
+  background-color: grey;
+  border-radius: 8px;
+  border: 1px solid;
+  color: red;
+  font-size: 1.3vw;
+  font-family: 'CommissionerBold';
+  text-align: center;
+  padding-bottom: 5px;
+
+  width: 160px;
+}
+
+.tzpv-creported{
+  background-color: grey;
+  border-radius: 8px;
+  border: 1px solid;
+  color: red;
+  display: absolute;
+  font-size: 1.1vw;
+  font-family: 'CommissionerBold';
+  text-align: center;
+  width: 200px;
+}
+
+.tzpv-id-label { 
+  color: white;
+  font-family:'CommissionerBold';  
+}
+
+@font-face {
+  font-family: 'CommissionerMedium';
+  src: local('Commissioner'), url(../res/fonts/Commissioner/Commissioner-Medium.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'CommissionerBold';
+  src: local('CommissionerBold'), url(../res/fonts/Commissioner/Commissioner-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CommissionerSemiBold';
+  src: local('CommissionerSemiBold'), url(../res/fonts/Commissioner/Commissioner-SemiBold.ttf) format('truetype');
+}
+
+
+
+
+
